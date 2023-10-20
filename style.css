@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,106 +13,50 @@ header {
     
 }
 
-.nav {
-    background-color: #333;
-    font-size: 20px;
-    color: #fff;
-    padding: 20px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-}
-
-.nav li {
-    display: inline;
-    margin-right: 20px; 
-}
-
-.nav a {
-    color: #ffffff; 
-    text-decoration: none;
-}
 
 .wrap {
-    display: block;
+    display: flex;
 }
     
 .content {
-    margin: 20px 0px;
+    margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     width: 95%;
 }
     
+/* Task 1: Text Color */
 .color-example h3 {
     color: #0073e6;
 }
-    
+
+/* Task 2: Background Color */
 .color-example p {
     background-color: #f0d98c;
 }
-    
+
+/* Task 1: Font Family and Size */
 .typography-example p {
-    font-family: Georgia, serif;
+    font-family: 'Georgia', serif;
     font-size: 20px;
 }
-    
+
+/* Task 2: Text Alignment and Line Height */
 .typography-example p {
     text-align: right;
     line-height: 1.6;
 }
-    
+
+/* Task 1: ID Selector */
 #uniqueDiv {
     background-color: #64b5f6;
     font-size: 18px;
 }
-      
+
+/* Task 2: Class Selector */
 .info {
     border: 2px solid #4caf50;
     padding: 10px;
-}
-
-.aside {
-    float: right;
-    margin: 20px;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    margin-right: 0%;
-}
-
-.container {
-    margin: 20px 0px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    width: 75%; 
-}
-
-img{
-    width: 60px;
-   height: 1000px;
-   object-fit: cover;
-}
-
-footer {
-    font-family: Georgia, serif; 
-    color: #666; 
-    font-size: 20px; 
-    font-style: italic;
-    margin: 20px;
-}
-text{
-    text-align: left;
 }
 
